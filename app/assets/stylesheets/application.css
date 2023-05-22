@@ -1,14 +1,23 @@
-.blue_letters {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(62, 143, 215);
-  color: antiquewhite;
-  font-size: 30px;
-  font-weight: bold;
+.container {
+  width: 100%;
+  margin: 20px;
 }
 
 
+.letters {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(8, 26, 227);
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid #E8EFF4;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
